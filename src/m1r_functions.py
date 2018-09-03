@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# TODO:  READ the code below. TRACE (by hand) the execution of the code,
+# DONE:  READ the code below. TRACE (by hand) the execution of the code,
 # predicting what will get printed.  Then run the code
 # and compare your prediction to what actually was printed.
 # Then mark this _TODO_ as DONE and commit-and-push your work.
@@ -17,11 +17,11 @@ def main():
 
 
 def hello(friend):
-    print("Hello," + friend + "!  How are things?")
+    print("Hello, " + friend + "!  How are things?")
 
 
 def goodbye(friend):
-    print("Goodbye," + friend + "!")
+    print("Goodbye, " + friend + "!")
     print('   Ciao!')
     print('   Bai bai!')
 
@@ -32,3 +32,15 @@ def hello_and_goodbye(person1, person2):
 
 
 main()
+
+# Prediction:
+# Hello, Snow White! How are things?
+# Goodbye, Bashful!
+#    Ciao!
+#    Bai bai!
+# Hello, Grumpy! How are things?
+# Hello, Sleepy! How are things?
+# Hello, Magic Mirror! How are things?
+# Goodbye, Cruel Queen!
+#    Ciao!
+#    Bai bai!
